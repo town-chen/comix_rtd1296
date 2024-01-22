@@ -1,5 +1,5 @@
 #!/bin/sh
-echo -e "\e[1;33m 小睿CM360黑群晖DS218专用 \e[0m"
+echo -e "\e[1;33m 齐心SY-100黑群晖DS218专用 \e[0m"
 sleep 3
 
 
@@ -92,4 +92,4 @@ dd if=vender.bin of=/dev/mtdblock3
 rm vender.bin
 echo Update Success! MAC:$macstr SN:$sn
 echo -e "\e[1;33m 成功啦！成功啦！成功啦！立即重启系统，Enjoy  it!  \e[0m"
-rm -f cm360macsn.sh
+rm -f sy100macsn.sh
